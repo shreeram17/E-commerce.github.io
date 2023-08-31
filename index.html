@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Nike Shoe Brand</title>
+</head>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+header {
+  background-color: white;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+.logo h1 {
+  font-weight: bold;
+  margin-left: 10px;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+    padding: 0rem;
+}
+
+.product-section {
+  display: flex;
+  align-items: center;
+  
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-details h2 {
+  font-size: 24px;
+}
+
+.buy-now-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.product-image {
+  max-width: 100%;
+  flex: 1;
+}
+
+.options-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sizes {
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+p{
+    font-style: bold;
+}
+
+.sizes h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.size1{
+    text-align:center;
+    cursor: pointer;
+    padding-left: 40rem;
+    padding-bottom: 10rem;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  color: white;
+  padding: 1rem;
+}
+
+</style>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="logo1.png" alt="Nike Logo">
+        <h1>Nike Shoe Brand</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="product-section">
+      <div class="product-details">
+        <p font style="font-size: 70px;">Nike Air Max</p>
+        <p>Built for comfort and style, the Nike Air Max features advanced cushioning technology and a sleek design.</p>
+        <button class="buy-now-button">Buy Now</button>
+      </div>
+      <img class="product-image" src="s5.png" alt="Nike Air Max" height="600" width="450">
+    </section>
+    <div class="size1">
+    <p>SIZE</p>
+    <p>7<input type="radio" placeholder="7"> 8<input type="radio" placeholder="8"> 9<input type="radio" placeholder="9"> 10<input type="radio" placeholder="10"></p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2023 Nike Shoe Brand</p>
+  </footer>
+</body>
+</html>
+
